@@ -17,7 +17,7 @@
         "apiVersion": "2016-03-01",
         "location": "[resourceGroup().location]",
         "sku": {
-          "name": "S1",
+          "name": "B1",
           "capacity": 1
         },
         "kind": "linux",
@@ -51,7 +51,7 @@
               "displayName": "appSettings"
             },
             "properties": {
-              "DOCKER_CUSTOM_IMAGE_NAME": "sjkp/node-red-docker-azurewebapp",
+              "DOCKER_CUSTOM_IMAGE_NAME": "sjkp/nr-azure-docker",
               "WEBSITES_ENABLE_APP_SERVICE_STORAGE": "true",
               "WEBSITE_PORT": "1880"
             }
