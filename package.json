@@ -32,6 +32,6 @@
         "node-red-contrib-uibuilder": "*"
     },
     "engines": {
-        "node": "4.*.*"
+        "node": "10.x"
     }
 }
