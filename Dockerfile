@@ -3,7 +3,7 @@
 #RUN ln -s /home /data
 #ENV PORT=80
 #EXPOSE 80
-FROM node:6
+FROM node:10
 
 # Home directory for Node-RED application source code. trrst
 RUN mkdir -p /usr/src/node-red
