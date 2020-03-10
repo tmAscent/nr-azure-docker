@@ -5,7 +5,7 @@
 #EXPOSE 80
 FROM node:6
 
-# Home directory for Node-RED application source code.
+# Home directory for Node-RED application source code. trrst
 RUN mkdir -p /usr/src/node-red
 
 # User data directory, contains flows, config and nodes.
