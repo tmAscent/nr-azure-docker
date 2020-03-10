@@ -11,7 +11,7 @@ RUN mkdir -p /usr/src/node-red
 # User data directory, contains flows, config and nodes.
 RUN mkdir -p /home/data
 
-WORKDIR /usr/src/node-red
+#WORKDIR /usr/src/node-red
 
 # Add node-red user so we aren't running as root.
 RUN useradd --home-dir /usr/src/node-red --no-create-home node-red \
